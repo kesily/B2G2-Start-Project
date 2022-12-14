@@ -54,7 +54,7 @@ z-index: 100;
     transform: rotate(90deg);
     position: absolute;
     animation-name:example ;
-    animation-duration: 2s;
+    animation-duration: 0.5s;
     animation-iteration-count: infinite;
   }
 
