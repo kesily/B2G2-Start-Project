@@ -64,7 +64,7 @@ z-index: 100;
   }
   
   .light-two {
-    background-image: radial-gradient(circle, #002fff 10%, transparent 0%), radial-gradient(circle, #6c00c5 14%, transparent 0%);
+    background-image: radial-gradient(circle, #eeff00 10%, transparent 0%), radial-gradient(circle, #002fff 14%, transparent 0%);
     background-size: 100px 100px;
     background-position: -49px -20px, 88px -35px;
     animation: blinking 2s linear 1s infinite;
