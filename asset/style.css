@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'PWJoyeuxNoel';
+    src: url('font/PWJoyeuxNoel.woff2') format('woff2'),
+        url('font/PWJoyeuxNoel.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 .menu__liste{
     list-style: none;
      padding: 0;
@@ -6,13 +16,16 @@
 }
 
 .menu__el a{
+    font-size: 20px;
+    font-family: 'PWJoyeuxNoel';
     text-decoration: none;
-    background-color: rgb(150, 221, 35);
+    background-color: rgb(123, 184, 25);
     padding: 20px;
     display: block;
     /*block = width: 100% */
-     color: black;
+     color: rgba(181, 18, 26, 0.938);
      z-index: 100;
+
 }
 .menu__el{
 margin: 0px 0;
@@ -813,7 +826,7 @@ z-index: 100;
 @media (min-width:600px){
 
     body{
-        background-color: rgba(220, 20, 30, 0.938);
+        background-color: rgba(255, 0, 13, 0.938);
     }
     .menu__liste{
         display: flex;
