@@ -49,6 +49,19 @@ z-index: 100;
     background-position: 0 0, 50px 50px;
     animation: blinking 2s linear infinite;
   }
+
+  .png{
+    transform: rotate(90deg);
+    position: absolute;
+    animation-name:example ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes example {
+    from {left:  -500px;}
+    to {left: 40px;}
+  }
   
   .light-two {
     background-image: radial-gradient(circle, #002fff 10%, transparent 0%), radial-gradient(circle, #6c00c5 14%, transparent 0%);
