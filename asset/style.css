@@ -1,0 +1,41 @@
+.menu__liste{
+    list-style: none;
+     padding: 0;
+     margin:0;
+}
+
+.menu__el a{
+    text-decoration: none;
+    background-color: crimson;
+    padding: 20px;
+    display: block;
+    /*block = width: 100% */
+     color: black;
+}
+.menu__el{
+margin: 5px 0;
+
+
+}
+/*important*/
+.menu__el a:hover,
+.menu__el a:focus{
+    background-color:brown;
+    color: wheat;
+}
+
+/*conditions pour tablette*/
+
+@media (min-width:600px){
+
+    body{
+        background-color: green;
+    }
+    .menu__liste{
+        display: flex;
+        justify-content: center;
+    }
+    .menu__el{
+        flex-grow: 1;
+    }
+}
