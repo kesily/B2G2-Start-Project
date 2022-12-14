@@ -7,7 +7,7 @@
 
 .menu__el a{
     text-decoration: none;
-    background-color: crimson;
+    background-color: rgb(150, 221, 35);
     padding: 20px;
     display: block;
     /*block = width: 100% */
@@ -22,7 +22,7 @@ z-index: 100;
 /*important*/
 .menu__el a:hover,
 .menu__el a:focus{
-    background-color:brown;
+    background-color:#37520c;
     color: wheat;
 }
 
@@ -40,11 +40,11 @@ z-index: 100;
   
   .light-one,
   .light-two {
-    height: 31%;
+    height: 100%;
     position: absolute;
     top: 9px;
     width: 100%;
-    background-image: radial-gradient(circle, #f17900 12%, transparent 0%), radial-gradient(circle, #be0e0e 12%, transparent 1%);
+    background-image: radial-gradient(circle, #f100b9 12%, transparent 0%), radial-gradient(circle, #71cf1f 12%, transparent 1%);
     background-size: 100px 100px;
     background-position: 0 0, 50px 50px;
     animation: blinking 2s linear infinite;
@@ -102,7 +102,7 @@ z-index: 100;
   .ribbon {
     width: 40px;
     height: 40px;
-    background: red;
+    background: #5d8a14;
     border-radius: 100px / 50px;
     position: absolute;
     box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
@@ -142,7 +142,7 @@ z-index: 100;
     height: 64px;
     top: 8px;
     left: -11px;
-    background: red;
+    background: #5d8a14;
     transform: rotate(43deg);
   }
   
@@ -153,7 +153,7 @@ z-index: 100;
     height: 73px;
     top: 5px;
     left: 17px;
-    background: red;
+    background: #5d8a14;
     transform: rotate(-27deg);
   }
   
@@ -162,7 +162,7 @@ z-index: 100;
     height: 0;
     position: absolute;
     border-top: 45px solid transparent;
-    border-right: 87px solid red;
+    border-right: 87px solid #5d8a14;
     border-bottom: 14px solid transparent;
     border-radius: 9px;
     right: 16px;
@@ -175,7 +175,7 @@ z-index: 100;
     position: absolute;
     width: 50px;
     height: 148px;
-    background: radial-gradient(ellipse at 49% 71%, #de2121 19%, transparent 2%);
+    background: radial-gradient(ellipse at 49% 71%, #37520c 19%, transparent 2%);
     transform: rotate(-119deg);
     top: -88px;
     right: -56px;
@@ -187,7 +187,7 @@ z-index: 100;
     width: 41px;
     height: 177px;
     transform: rotate(97deg);
-    background: radial-gradient(ellipse at 76% 75%, #ff0000 13%, transparent 1%);
+    background: radial-gradient(ellipse at 76% 75%, #71a221 13%, transparent 1%);
     left: 83px;
     top: -86px;
   }
@@ -197,7 +197,7 @@ z-index: 100;
     height: 0;
     position: absolute;
     border-top: 45px solid transparent;
-    border-right: 87px solid red;
+    border-right: 87px solid #5d8a14;
     border-bottom: 14px solid transparent;
     border-radius: 9px;
     transform: rotate(-20deg);
@@ -210,7 +210,7 @@ z-index: 100;
     position: absolute;
     width: 56px;
     height: 148px;
-    background: radial-gradient(ellipse at 49% 71%, #de2121 19%, transparent 2%);
+    background: radial-gradient(ellipse at 49% 71%, #37520c 19%, transparent 2%);
     transform: rotate(-83deg);
     top: -72px;
     right: -55px;
@@ -221,7 +221,7 @@ z-index: 100;
     position: absolute;
     width: 56px;
     height: 146px;
-    background: radial-gradient(ellipse at 49% 71%, #ff0000 19%, transparent 2%);
+    background: radial-gradient(ellipse at 49% 71%, #71a221 19%, transparent 2%);
     transform: rotate(-111deg);
     top: -93px;
     right: -60px;
@@ -235,7 +235,7 @@ z-index: 100;
     left: -22px;
     z-index: 1;
     transform: rotate(22deg);
-    background-color: #ca0c0c;
+    background-color: #5d8a14;
   }
   
   .ribbon-line-left::before {
@@ -246,7 +246,7 @@ z-index: 100;
     width: 20px;
     height: 1px;
     transform: rotate(20deg);
-    background-color: #ca0c0c;
+    background-color: #37520c;
   }
   
   .ribbon-line-left::after {
@@ -257,7 +257,7 @@ z-index: 100;
     width: 19px;
     height: 1px;
     transform: rotate(167deg);
-    background-color: #ca0c0c;
+    background-color: #5d8a14;
   }
   
   .ribbon-line-right {
@@ -268,7 +268,7 @@ z-index: 100;
     left: 41px;
     z-index: 1;
     transform: rotate(152deg);
-    background-color: #ca0c0c;
+    background-color: #5d8a14;
   }
   
   .ribbon-line-right::before {
@@ -279,7 +279,7 @@ z-index: 100;
     width: 20px;
     height: 1px;
     transform: rotate(20deg);
-    background-color: #ca0c0c;
+    background-color: #5d8a14;
   }
   
   .ribbon-line-right::after {
@@ -290,7 +290,7 @@ z-index: 100;
     width: 19px;
     height: 1px;
     transform: rotate(167deg);
-    background-color: #ca0c0c;
+    background-color: #5d8a14;
   }
   
   .ribbon-cut-out {
@@ -301,7 +301,7 @@ z-index: 100;
     left: -29px;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 12px solid #b91e1e;
+    border-bottom: 12px solid #5d8a14;
     transform: rotate(41deg);
     z-index: 1;
   }
@@ -315,7 +315,7 @@ z-index: 100;
     left: 43px;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 12px solid #e01d1d;
+    border-bottom: 12px solid #7bab2e;
     transform: rotate(-60deg);
     z-index: 1;
   }
@@ -331,7 +331,7 @@ z-index: 100;
     z-index: 1;
     transform: rotate(-33deg);
     border: 1px solid;
-    color: #ab1313;
+    color: #5d8a14;
   }
  
   .box,
@@ -376,7 +376,7 @@ z-index: 100;
     position: absolute;
     top: -6px;
     width: 101%;
-    background: #b91e1e;
+    background: #5d8a14;
     transform: translateZ(-72px);
   }
   
@@ -408,7 +408,7 @@ z-index: 100;
     position: absolute;
     top: 0;
     width: 100%;
-    background: #e01d1d;   
+    background: #5d8a14;   
     transform: rotateX(90deg) scaleY(0.9);
     transform-origin: bottom;
     background-image: radial-gradient(#ffffff 17%, transparent 19%);
@@ -421,8 +421,8 @@ z-index: 100;
     width: 101%;
     height: 101%;
     top: 4px;
-    border-top: solid 2px #ff4a4a;
-    background: #e01d1d;
+    border-top: solid 2px #5d8a14;
+    background: #5d8a14;
   }
   
   .box-back,
@@ -432,7 +432,7 @@ z-index: 100;
     position: absolute;
     top: -241px;
     width: 100%;
-    background: #901010;
+    background: #3f6207;
     transform: rotateX(90deg) scaleY(0.9);
     transform-origin: bottom;
   }
@@ -458,7 +458,7 @@ z-index: 100;
     left: 0;
     position: absolute;
     top: 0;
-    background: #b91e1e;
+    background: #3f6207;
     transform: translateZ(-216px) rotateY(90deg) scaleX(0.9);
     transform-origin: right;
     width: 240px;
@@ -473,7 +473,7 @@ z-index: 100;
     top: -3px;
     left: -4px;
     box-shadow: -74px -5px 12px #0000000f;
-    background: #b91e1e;
+    background: #3f6207;
   }
   
   .box-left::after,
@@ -494,7 +494,7 @@ z-index: 100;
     left: -236px;
     position: absolute;
     top: 0;
-    background: #901010;
+    background: #3f6207;
     transform: translateZ(-216px) rotateY(90deg) scaleX(0.9);
     transform-origin: right;
     width: 240px;
@@ -786,7 +786,7 @@ z-index: 100;
   
   .teddy-santa-hat::before {
     content: '';
-    background: #ff0000;
+    background: #619914;
     position: absolute;
     top: -37px;
     left: 16px;
@@ -805,7 +805,7 @@ z-index: 100;
     height: 0;
     border-left: 125px solid transparent;
     border-right: 44px solid transparent;
-    border-top: 67px solid #ff0000;
+    border-top: 67px solid #619914;
     border-radius: 74px;
     z-index: -2;
     transform: rotate(-56deg);
@@ -826,7 +826,7 @@ z-index: 100;
 @media (min-width:600px){
 
     body{
-        background-color: green;
+        background-color: rgba(220, 20, 30, 0.938);
     }
     .menu__liste{
         display: flex;
